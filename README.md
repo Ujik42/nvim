@@ -53,7 +53,7 @@ gran variedad de plugins, pero ademas incluye algunas modificaciones personales:
 
 - Uso de 'jklñ' en lugar de 'hjkl', ya que es mas comodo para teclados en
   español.
-- <F2> abre la consola, luego presionas <a> para escribir y para salir tecleas
-"exit" o presionas <C-d>.
-- <F6> habre el el explorador de archivos [preservim/nerdtree](https://github.com/preservim/nerdtree)
+- "F2" abre la consola, luego presionas "a" para escribir y para salir tecleas
+"exit" o presionas "CTRL+d".
+- "F6" habre el el explorador de archivos [preservim/nerdtree](https://github.com/preservim/nerdtree)
 y lo vueleve a cerrar al presionar la tecla de nuevo
