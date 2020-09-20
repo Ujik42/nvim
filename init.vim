@@ -11,6 +11,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'morhetz/gruvbox'
 Plug 'davidhalter/jedi-vim'
+Plug 'Shougo/deol.nvim'
 " Plug 'roxma/nvim-completion-manager'
 " Plug 'roxma/python-support.nvim'
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -27,4 +28,8 @@ noremap k j
 noremap l k
 noremap ñ l
 nmap <F6> :NERDTreeToggle<CR>
+nmap <F2> :sb<CR>:term<CR>
 
+set splitbelow
+set splitright
+set relativenumber
