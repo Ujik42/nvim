@@ -11,6 +11,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'morhetz/gruvbox'
 Plug 'davidhalter/jedi-vim'
+Plug 'whatyouhide/vim-lengthmatters'
 " Plug 'Shougo/deol.nvim'
 " Plug 'roxma/nvim-completion-manager'
 " Plug 'roxma/python-support.nvim'
@@ -33,3 +34,4 @@ nmap <F2> :sb<CR>:term<CR>
 set splitbelow
 set splitright
 set relativenumber
+set textwidth=80
