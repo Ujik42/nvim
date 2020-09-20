@@ -20,3 +20,28 @@ Los plugins incluidos son los siguientes:
 - [whatyouhide/vim-lengthmatters](https://github.com/whatyouhide/vim-lengthmatters)
 
 Además utiliza el tema [morhetz/gruvbox](https://github.com/morhetz/gruvbox)
+
+## Requisitos
+
+Necesitas tener vim o neovim instalados en tu SO, pero tambien rquiere algunos
+paquetes extra que requiere cada plugin, por lo que recomiendo leer los
+requisitos de estos.
+
+Tambien se necesita el paquete git para descargar el repositorio.
+
+Si usas vim necesitaras instalar [junegunn/vim-plug](https://github.com/junegunn/vim-plug).
+
+## Instalación
+
+El proceso de instalación que voy a describir está hecho para neovim 0.4.4 en
+Arch Linux, para otros SO o vim puede variar.
+
+- Partimos de la base que neovim está instalado.
+- Nos vamos a la carpeta "~/.config".
+- Borramos la carpeta "nvim" si se encuentra dentro de esta.
+- Ejecutamos el comando "git clone https://github.com/junegunn/vim-plug.git".
+- Abrimos neovim con el comando "nvim".
+- Tecleamos ":PlugInstall" para instalar los plugins.
+- Hacemos ":qa!" para salir de neovim.
+- Volvemos a abrir neovim con el comando "nvim".
+- Neovim ya estaría completamente listo para funcionar con los plugins.
