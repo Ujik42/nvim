@@ -27,24 +27,59 @@ Necesitas tener vim o neovim instalados en tu SO, pero tambien rquiere algunos
 paquetes extra que requiere cada plugin, por lo que recomiendo leer los
 requisitos de estos.
 
+Para instalar vim o neovim en windows se necestia tener chocolatey en windows,
+este es un gestor de paquetes, el proceso de instalación está en [esta
+página](https://chocolatey.org/install).
+
+Despues tendrán que instalar vim o neovim con los siguientes comandos
+respectivamente.
+- choco install vim
+- choco install neovim
+Los comandos deben ser ejecutados como administrador.
+Para instalar git en linux ejecutamos el comando "choco install git"
+
 Tambien se necesita el paquete git para descargar el repositorio.
 
-Si usas vim necesitaras instalar [junegunn/vim-plug](https://github.com/junegunn/vim-plug).
+Si usas vim en windows o linux o neovim en windows necesitaras instalar 
+[junegunn/vim-plug](https://github.com/junegunn/vim-plug) sus intrucciones se 
+encuentran en la página del repositorio para todos los so y tanto para vim como
+para nvim.
 
 ## Instalación
 
-El proceso de instalación que voy a describir está hecho para neovim 0.4.4 en
-Arch Linux, para otros SO o vim puede variar.
+### NeoVim
+
+#### Linux
 
 - Partimos de la base que neovim está instalado.
 - Nos vamos a la carpeta "~/.config".
-- Borramos la carpeta "nvim" si se encuentra dentro de esta.
+- Borramos la carpeta "nvim" si se encuentra dentro de esta (rm -rf nvim).
 - Ejecutamos el comando "git clone https://github.com/Ujik42/nvim.git".
 - Abrimos neovim con el comando "nvim".
+- Apareceran varios errores, ya que faltan plugins, pero le damos a "ENTER"
+  hasta que nos salga el editor.
 - Tecleamos ":PlugInstall" para instalar los plugins.
 - Hacemos ":qa!" para salir de neovim.
 - Volvemos a abrir neovim con el comando "nvim".
 - Neovim ya estaría completamente listo para funcionar con los plugins.
+
+#### Windows
+
+- Partimos de la base que neovim y vim-pug están instalados.
+- Nos vamos a la carpeta "~\AppData\Local".
+- Borramos la carpeta "nvim" si se encuentra dentro de esta (RMDIR /Q/S nvim).
+- Ejecutamos el comando "git clone https://github.com/Ujik42/nvim.git".
+- Abrimos neovim con el comando "nvim".
+- Apareceran varios errores, ya que faltan plugins, pero le damos a "ENTER"
+  hasta que nos salga el editor.
+- Tecleamos ":PlugInstall" para instalar los plugins.
+- Hacemos ":qa!" para salir de neovim.
+- Volvemos a abrir neovim con el comando "nvim".
+- Neovim ya estaría completamente listo para funcionar con los plugins.
+
+### Vim
+
+Proximamente... :v
 
 ## Modificaciones
 
