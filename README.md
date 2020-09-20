@@ -39,7 +39,7 @@ Arch Linux, para otros SO o vim puede variar.
 - Partimos de la base que neovim está instalado.
 - Nos vamos a la carpeta "~/.config".
 - Borramos la carpeta "nvim" si se encuentra dentro de esta.
-- Ejecutamos el comando "git clone https://github.com/junegunn/vim-plug.git".
+- Ejecutamos el comando "git clone https://github.com/Ujik42/nvim.git".
 - Abrimos neovim con el comando "nvim".
 - Tecleamos ":PlugInstall" para instalar los plugins.
 - Hacemos ":qa!" para salir de neovim.
