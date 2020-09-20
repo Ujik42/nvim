@@ -35,7 +35,9 @@ Despues tendrán que instalar vim o neovim con los siguientes comandos
 respectivamente.
 - choco install vim
 - choco install neovim
+
 Los comandos deben ser ejecutados como administrador.
+
 Para instalar git en linux ejecutamos el comando "choco install git"
 
 Tambien se necesita el paquete git para descargar el repositorio.
