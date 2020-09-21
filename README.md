@@ -4,7 +4,7 @@
 
 Este repositorio contiene la información necesaria para intalar los plugins que
 yo uso para programar en nvim. Están testeados en la versión de neovim 0.4.4,
-pero debería funcionar para otras versiones del programa, asi como para vim.
+pero debería funcionar para versiones despues de la 0.3.0, asi como para vim.
 
 Los plugins incluidos son los siguientes:
 - [SirVer/ultisnips](https://github.com/SirVer/ultisnips)
@@ -18,13 +18,14 @@ Los plugins incluidos son los siguientes:
 - [junegunn/fzf.vim](https://github.com/junegunn/fzf.vim)
 - [davidhalter/jedi-vim](https://github.com/davidhalter/jedi-vim)
 - [whatyouhide/vim-lengthmatters](https://github.com/whatyouhide/vim-lengthmatters)
+- [deoplete.nvim)](https://github.com/Shougo/deoplete.nvim)
 
 Además utiliza el tema [morhetz/gruvbox](https://github.com/morhetz/gruvbox)
 
 ## Requisitos
 
-Necesitas tener vim o neovim instalados en tu SO, pero tambien rquiere algunos
-paquetes extra que requiere cada plugin, por lo que recomiendo leer los
+Necesitas tener vim o neovim 0.3.0 instalados en tu SO, pero tambien rquiere 
+algunos paquetes extra que requiere cada plugin, por lo que recomiendo leer los
 requisitos de estos.
 
 Para instalar vim o neovim en windows se necestia tener chocolatey en windows,

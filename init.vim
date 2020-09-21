@@ -12,12 +12,21 @@ Plug 'junegunn/fzf.vim'
 Plug 'morhetz/gruvbox'
 Plug 'davidhalter/jedi-vim'
 Plug 'whatyouhide/vim-lengthmatters'
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
 " Plug 'Shougo/deol.nvim'
 " Plug 'roxma/nvim-completion-manager'
 " Plug 'roxma/python-support.nvim'
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'mbbill/code_complete'
 call plug#end()
+
+let g:deoplete#enable_at_startup = 1
 
 " Configuración del tema
 colorscheme gruvbox
