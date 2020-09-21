@@ -35,3 +35,4 @@ set splitbelow
 set splitright
 set relativenumber
 set textwidth=80
+set autoindent
