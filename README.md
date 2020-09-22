@@ -19,6 +19,7 @@ Los plugins incluidos son los siguientes:
 - [davidhalter/jedi-vim](https://github.com/davidhalter/jedi-vim)
 - [whatyouhide/vim-lengthmatters](https://github.com/whatyouhide/vim-lengthmatters)
 - [deoplete.nvim)](https://github.com/Shougo/deoplete.nvim)
+- [ternjs/tern_for_vim](https://github.com/ternjs/tern_for_vim)
 
 Además utiliza el tema [morhetz/gruvbox](https://github.com/morhetz/gruvbox)
 

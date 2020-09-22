@@ -19,6 +19,7 @@ else
   Plug 'roxma/nvim-yarp'
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
+Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
 " Plug 'Shougo/deol.nvim'
 " Plug 'roxma/nvim-completion-manager'
 " Plug 'roxma/python-support.nvim'
@@ -38,7 +39,7 @@ noremap k j
 noremap l k
 noremap ñ l
 nmap <F6> :NERDTreeToggle<CR>
-nmap <F2> :sb<CR>:cd%:p:h<CR>:term<CR>
+nmap <F8> :sb<CR>:cd%:p:h<CR>:term<CR>
 
 set splitbelow
 set splitright
