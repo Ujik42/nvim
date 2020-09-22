@@ -38,7 +38,7 @@ noremap k j
 noremap l k
 noremap ñ l
 nmap <F6> :NERDTreeToggle<CR>
-nmap <F2> :sb<CR>:term<CR>
+nmap <F2> :sb<CR>:cd%:p:h<CR>:term<CR>
 
 set splitbelow
 set splitright
